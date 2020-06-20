@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\CRUD_Master</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=JOHNSVILL-PC\SQLEXPRESS%3bDatabase=CrudMaster%3bIntegrated Security=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="CrudMaster.Data.AppDbContext">
+      <Value>"Server = %28localdb%29\\mssqllocaldb%3b Database = CrudMaster%3b Trusted_Connection = True%3b MultipleActiveResultSets = True"</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
